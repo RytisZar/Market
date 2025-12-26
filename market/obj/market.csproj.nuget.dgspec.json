@@ -1,28 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\test\\market\\market\\market.csproj": {}
+    "C:\\Users\\rytis\\Desktop\\Market\\market\\market.csproj": {}
   },
   "projects": {
-    "C:\\test\\market\\market\\market.csproj": {
+    "C:\\Users\\rytis\\Desktop\\Market\\market\\market.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\test\\market\\market\\market.csproj",
+        "projectUniqueName": "C:\\Users\\rytis\\Desktop\\Market\\market\\market.csproj",
         "projectName": "market",
-        "projectPath": "C:\\test\\market\\market\\market.csproj",
-        "packagesPath": "C:\\Users\\laurynas.janilionis\\.nuget\\packages\\",
-        "outputPath": "C:\\test\\market\\market\\obj\\",
+        "projectPath": "C:\\Users\\rytis\\Desktop\\Market\\market\\market.csproj",
+        "packagesPath": "C:\\Users\\rytis\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rytis\\Desktop\\Market\\market\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\laurynas.janilionis\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\rytis\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -49,6 +46,16 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[8.0.22, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.4, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

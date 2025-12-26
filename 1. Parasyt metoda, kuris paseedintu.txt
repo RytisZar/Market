@@ -1,0 +1,3 @@
+1. Parasyt metoda, kuris paseedintu roles, kadangi roles neegzistuoja;
+2. Naujos lenteles, endpointai;
+
